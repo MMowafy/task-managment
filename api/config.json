@@ -1,0 +1,20 @@
+{
+  "app": {
+    "host": "localhost",
+    "port": "8080",
+    "cors": true,
+    "http_logs": true,
+    "db_logs": true
+  },
+  "db": {
+    "mysql": {
+      "name": "appdb",
+      "driver": "postgres",
+      "host": "postgres",
+      "port": "5432",
+      "username": "postgres",
+      "password": "root",
+      "db_name": "appdb"
+    }
+  }
+}
